@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+  <default>
+    <payment>
+      <allpaypayz>
+        <active>0</active>
+        <title>Allpaypayz</title>
+        <base_url>https://api4.allpaypayz.com</base_url>
+        <payment_method>card</payment_method>
+        <model>Allpaypayz\Magento2\Model\Payment\Allpaypayz</model>
+        <order_status>pending_payment</order_status>
+        <allowspecific>0</allowspecific>
+      </allpaypayz>
+    </payment>
+  </default>
+</config>

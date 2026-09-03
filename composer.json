@@ -1,0 +1,17 @@
+{
+  "name": "allpaypayz/cms-magento2",
+  "description": "Allpaypayz payment method for Magento 2.",
+  "type": "magento2-module",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1",
+    "magento/framework": "*",
+    "allpaypayz/sdk": "^0.1"
+  },
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {
+      "Allpaypayz\\Magento2\\": ""
+    }
+  }
+}

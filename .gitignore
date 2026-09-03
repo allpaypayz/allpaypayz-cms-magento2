@@ -1,0 +1,75 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Node / TS
+node_modules/
+dist/
+build/
+.next/
+*.tsbuildinfo
+.npmrc
+.yarn/
+.pnpm-store/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.tox/
+.coverage
+htmlcov/
+dist/
+build/
+
+# PHP
+vendor/
+composer.lock
+.phpunit.result.cache
+.php-cs-fixer.cache
+
+# Java
+target/
+*.class
+*.jar
+*.war
+.gradle/
+.mvn/
+hs_err_pid*.log
+
+# Go
+bin/
+pkg/
+
+# Ruby
+.bundle/
+*.gem
+.ruby-version
+
+# .NET
+obj/
+bin/
+*.nupkg
+*.user
+
+# Ruby (additional)
+.rspec_status
+
+# Codegen scratch
+.codegen-tmp/
+*.orig
